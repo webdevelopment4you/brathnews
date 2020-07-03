@@ -9,7 +9,7 @@ const xhr = new XMLHttpRequest();
 
 
 
-xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&apiKey=${apiKey}`, true);
+xhr.open('GET', `http://newsapi.org/v2/top-headlines?country=in&apiKey=${apiKey}`, true);
 
 
 // xhr.setRequestHeader('Content-type','application/json');
