@@ -1,0 +1,45 @@
+html,body
+{
+    margin:0;
+}
+.navbar-light .navbar-brand 
+{
+    font-weight: 700;
+}
+
+.card
+{
+    width:21rem;
+}
+
+.container
+{
+    margin:0 auto;
+}
+
+.row
+{
+    margin:0 auto;
+}
+
+h3
+{
+    text-align:center;
+}
+
+@media screen and (max-width:1199px)
+{
+    .card
+    {
+        width:46%;
+    }
+}
+
+@media screen and (max-width:991px)
+{
+    .card
+    {
+        width:96%;
+    }
+}
+
